@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Terra y Trama-Documentación</title>
+
+
+
+
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+<!-- Fuente moderna -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+
+
+
+<style>
+:root {
+  --verde-claro: #A8E6CF;
+  --verde-oscuro: #2E7D32;
+  --azul-oscuro: #004e92;
+  --blanco: #ffffff;
+}
+
+
+
+
+/* --- Fondo general --- */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #A8E6CF, #56ab2f);
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+
+
+
+/* --- Navbar --- */
+.navbar {
+  background: linear-gradient(90deg, #004e92, #000428);
+}
+.navbar-brand {
+  color: #fff !important;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.navbar img {
+  margin-right: 10px;
+}
+
+
+
+
+/* --- Títulos --- */
+h1 {
+  text-align: center;
+  color: #000;
+  margin-top: 30px;
+  font-weight: 700;
+  text-shadow: 0 0 10px rgba(255,255,255,0.5);
+}
+h5.card-title {
+  color: #000;
+  font-weight: 700;
+  margin-bottom: 15px;
+  border-bottom: 2px solid rgba(0,0,0,0.1);
+  padding-bottom: 8px;
+}
+
+
+
+
+/* --- Contenido principal --- */
+main {
+  max-width: 1100px;
+  margin: 40px auto;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 6px 25px rgba(0,0,0,0.2);
+}
+
+
+
+
+/* --- Párrafos --- */
+p {
+  line-height: 1.8;
+  text-align: justify;
+  color: #111;
+}
+
+
+
+
+/* --- Tarjetas --- */
+.card {
+  background: rgba(255, 255, 255, 0.9);
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: #333;
+}
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+}
+.card img {
+  border-radius: 12px 12px 0 0;
+  height: 200px;
+  object-fit: cover;
+}
+.card-text {
+  font-size: 0.95rem;
+  color: #333;
+}
+
+
+
+
+/* --- Botones --- */
+.btn-primary {
+  background: linear-gradient(90deg, #00c6ff, #0072ff);
+  border: none;
+  border-radius: 30px;
+  padding: 10px 25px;
+  color: rgb(210, 255, 255);
+  font-weight: 500;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+.btn-primary:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 198, 255, 0.6);
+}
+
+
+
+
+/* --- Footer --- */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: linear-gradient(90deg, #004e92, #000428);
+  color: #A8E6CF;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-top: 40px;
+}
+</style>
+</head>
+
+
+
+
+<body>
+
+
+
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Terra y Trama</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Hub</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="campañas.html">Campaña</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="productos.html">Productos</a></li>
+            <li><a class="dropdown-item" href="docs.html">Documentacion</a></li>
+            <li><a class="dropdown-item" href="reciclaje.html">Datos curiosos</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+
+<!-- CONTENIDO -->
+<main>
+  <h1>¿Qué vamos a hacer?</h1>
+  <p>
+    Crear una empresa en la cual la energía como fuente de mejora para el clima desarrollaremos productos a base de materiales renovables o 0% contaminantes para una mejora del cambio climático y no dañar tanto la flora como fauna de nuestro planeta.
+    Los productos renovables estarán elaborados a base de energía 100% sustentable y renovable, y los productos a base de plástico estarán hechos con residuos orgánicos con el fin de no contaminar la principal fuente de vida: el agua.
+    <strong>Vida ecológica</strong>.
+  </p>
+
+
+
+
+  <div class="row g-4 mt-4">
+    <!-- Tarjeta 1 -->
+    <div class="col-12 col-md-6">
+      <div class="card text-center h-100">
+        <img src="https://espacio-obra.com/wp-content/uploads/2024/12/Agenda-2030-portada.jpg" class="card-img-top" alt="ODS 14">
+        <div class="card-body">
+          <h5 class="card-title">Nuestro Objetivo Es...</h5>
+          <p class="card-text">Cumplir con los objetivos 7, 12 y 13 de la agenda ONU 2030 a través de nuestro producto. Nuestro principal propósito es proporcionar una fuente de energía y otros misceláneos sostenibles para lograr un cambio gradual.</p>
+          <a href="#" class="btn btn-primary">Ver más</a>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <!-- Tarjeta 2 -->
+    <div class="col-12 col-md-6">
+      <div class="card text-center h-100">
+        <img src="https://boliviaemprende.com/wp-content/uploads/2021/07/foda02.png" class="card-img-top" alt="FODA">
+        <div class="card-body">
+          <h5 class="card-title">FODA</h5>
+          <p class="card-text"><strong>Fortalezas:</strong> ayudar al medio ambiente con productos reciclados y ecológicos.<br>
+          <strong>Oportunidades:</strong> aprovechar residuos para crear nuevos productos.<br>
+          <strong>Debilidades:</strong> un mal uso de materia prima puede ser contraproducente.<br>
+          <strong>Amenazas:</strong> falta de conciencia social sobre el cambio ambiental.</p>
+          <a href="#" class="btn btn-primary">Ver más</a>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <!-- Tarjeta 3 -->
+    <div class="col-12 col-md-6">
+      <div class="card text-center h-100">
+        <img src="https://i.pinimg.com/736x/51/c5/f5/51c5f5746943c93a2873ba2fde29ce20.jpg" class="card-img-top" alt="Visión">
+        <div class="card-body">
+          <h5 class="card-title">Nuestra Visión</h5>
+          <p class="card-text">Buscamos mejorar la calidad de vida reduciendo el impacto ambiental y promoviendo una relación más consciente con el planeta.</p>
+          <a href="#" class="btn btn-primary">Ver más</a>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <!-- Tarjeta 4 -->
+    <div class="col-12 col-md-6">
+      <div class="card text-center h-100">
+        <img src="https://www.shutterstock.com/image-vector/eco-house-3d-trees-on-600nw-2547238297.jpg" class="card-img-top" alt="Diseños">
+        <div class="card-body">
+          <h5 class="card-title">Nuestros Diseños</h5>
+          <p class="card-text">Explora nuestros proyectos en Tinkercad:<br>
+            <a href="https://www.tinkercad.com" class="text-primary" target="_blank">Ver proyectos</a>
+          </p>
+          <a href="#" class="btn btn-primary">Ver más</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+
+
+
+<!-- FOOTER -->
+<footer>
+  EMPRESA Terra y Trama 3105
+</footer>
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
